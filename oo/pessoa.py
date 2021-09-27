@@ -1,7 +1,7 @@
 class Pessoa:
     def __init__(self, nome=None, idade=33):
         self.idade = idade
-        self.nome = None
+        self.nome = nome
     def cumprimentar(self):
         return f'Olá{id(self)}'
 
